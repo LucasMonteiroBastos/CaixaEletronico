@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="vermelho">#fb0000</color>
+    <color name="branco">#ffffff</color>
 </resources>
