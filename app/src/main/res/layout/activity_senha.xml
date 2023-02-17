@@ -8,15 +8,16 @@
     tools:context=".Senha">
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edit_senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/branco"
         android:ems="10"
         android:gravity="center"
         android:hint="Sua Senha"
-        android:inputType="textPassword"
-        android:padding="15dp"
+        android:maxLength="6"
+        android:inputType=""
+        android:padding="30dp"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,14 +26,14 @@
         app:layout_constraintVertical_bias="0.22000003" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bt_confirmar"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:background="@color/branco"
+        android:background="@drawable/botao"
         android:text="Confirmar"
         android:textColor="@color/vermelho"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_senha" />
 </androidx.constraintlayout.widget.ConstraintLayout>
