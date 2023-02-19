@@ -44,6 +44,8 @@ public class Senha extends AppCompatActivity {
         });
     }
 
+
+    // metodo para mudar de tela senha para Main activity
     private void irParaActivityPrincipal(){
 
         Intent intent = new Intent(Senha.this, MainActivity.class);
