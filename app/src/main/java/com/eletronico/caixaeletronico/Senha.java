@@ -39,6 +39,7 @@ public class Senha extends AppCompatActivity {
                 }
                 else{
                    Toast.makeText(Senha.this, "Senha Errada!",Toast.LENGTH_SHORT).show();
+                   
                 }
             }
         });
